@@ -30,8 +30,9 @@ public class AstroWalk : MonoBehaviour
             counter++;
         }
 
-        if(collision.gameObject == Moon && counter == 9) {}
+        if(collision.gameObject == Moon && counter == 9) {
             Debug.Log("You Win!!!");
+            counter++;
         }
     }
 }
