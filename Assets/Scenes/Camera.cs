@@ -11,7 +11,7 @@ public class Camera : MonoBehaviour
     }
 
     public GameObject player;
-    private Vector3 offset = new Vector3(-40, 0, 0);
+    private Vector3 offset = new Vector3(-35, 8, -46);
     // Update is called once per frame
     void Update()
     {
